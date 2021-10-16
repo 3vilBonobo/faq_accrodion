@@ -1,16 +1,16 @@
 const Attribution = () => {
   return (
     <div className="attribution">
-      Challenge by{' '}
+      Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
-        rel="noreferrer"
         target="_blank"
+        rel="noreferrer"
       >
         Frontend Mentor
       </a>
-      . Coded by{' '}
-      <a href="https://twitter.com/3Bonobo" rel="noreferrer" target="_blank">
+      . Coded by
+      <a href="https://twitter.com/3Bonobo" target="_blank" rel="noreferrer">
         Irinella Boutsika
       </a>
       .
@@ -18,4 +18,4 @@ const Attribution = () => {
   );
 };
 
-export default 'Attribution';
+export default Attribution;
