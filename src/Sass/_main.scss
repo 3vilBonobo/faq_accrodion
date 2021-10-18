@@ -1,0 +1,29 @@
+body {
+  background-color: $Soft_violet;
+  font-family: $Main_font;
+  font-size: $Main_fontSize;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 370px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  position: relative;
+  .box-img {
+    display: none;
+  }
+  .woman-img {
+    width: 100px;
+    height: 100px;
+  }
+}

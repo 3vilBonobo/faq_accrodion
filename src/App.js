@@ -1,13 +1,15 @@
 import Attribution from './Components/Attribution';
+
+import MainImage from './Components/MainImage';
 import './Sass/App.scss';
 
 const App = () => {
   return (
     <div className="App">
-      <h1>Hello</h1>
       <div className="container">
-        <Attribution />
+        <MainImage />
       </div>
+      <Attribution />
     </div>
   );
 };

@@ -12,3 +12,33 @@
 .attribution a {
   color: #3e52a3;
 }
+
+body {
+  background-color: #af67e9;
+  font-family: "Kumbh Sans", sans-serif;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 370px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imageContainer {
+  position: relative;
+}
+.imageContainer .box-img {
+  display: none;
+}
+.imageContainer .woman-img {
+  width: 100px;
+  height: 100px;
+}
