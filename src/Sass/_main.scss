@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   background-color: $Soft_violet;
   font-family: $Main_font;
   font-size: $Main_fontSize;
@@ -9,22 +10,68 @@ body {
 }
 
 .container {
+  position: relative;
   width: 370px;
   height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: $Light_grayish_blue;
+  padding-bottom: 100px;
+  border-radius: 20px;
 }
 
 .imageContainer {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 5px;
+  right: 20px;
   .box-img {
     display: none;
   }
   .woman-img {
     position: absolute;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+  }
+  .bg-img {
+    position: absolute;
+    bottom: -10px;
+    left: 25px;
+  }
+}
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  h1 {
+    align-self: center;
+  }
+  .faq {
+    margin: 15px 0;
+
+    .question {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      color: $Very_dark_grayish_blue;
+      font-weight: 700;
+      padding: 15px 0;
+
+      .arrow {
+        width: 10px;
+        height: 8px;
+      }
+    }
+    .answer {
+      color: $Dark_grayish_blue;
+      font-weight: 700;
+      display: none;
+    }
   }
 }
