@@ -39,6 +39,7 @@ body {
   display: none;
 }
 .imageContainer .woman-img {
+  position: absolute;
   width: 100px;
   height: 100px;
 }
