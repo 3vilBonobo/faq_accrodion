@@ -11,15 +11,16 @@ body {
 
 .container {
   position: relative;
-  width: 350px;
-  height: 600px;
+  width: 325px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: $Light_grayish_blue;
+  background-color: white;
   padding-bottom: 100px;
   border-radius: 20px;
+  margin-top: 50px;
 }
 
 .imageContainer {
@@ -28,7 +29,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  top: 5px;
+  top: -20px;
   right: 20px;
   .box-img {
     display: none;
@@ -53,6 +54,8 @@ body {
   justify-content: flex-start;
   h1 {
     align-self: center;
+    font-size: 1.9rem;
+    color: $Very_dark_desaturated_blue;
   }
   .faq {
     margin: 5px 0;
@@ -63,9 +66,10 @@ body {
       flex-direction: row;
       align-items: flex-start;
       justify-content: space-between;
-      color: $Very_dark_grayish_blue;
+      color: $Dark_grayish_blue;
       font-weight: 700;
       padding: 15px 0;
+      cursor: pointer;
 
       .arrow {
         width: 10px;
@@ -76,6 +80,9 @@ body {
       color: $Dark_grayish_blue;
       font-weight: 700;
       display: none;
+    }
+    .line {
+      border: 1px solid $Light_grayish_blue;
     }
   }
 }

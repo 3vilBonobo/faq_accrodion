@@ -42,6 +42,7 @@ const FaqContainer = () => {
             <img src="/images/arrowDown.svg" className="arrow" alt="" />
           </div>
           <div className="answer">{faq.answer}</div>
+          <hr className="line" />
         </div>
       ))}
     </div>

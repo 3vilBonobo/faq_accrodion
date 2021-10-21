@@ -7,17 +7,18 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .attribution a {
-  color: #3e52a3;
+  color: #e7e7e9;
 }
 
 body {
   height: 100vh;
   background-color: #af67e9;
   font-family: "Kumbh Sans", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -26,15 +27,16 @@ body {
 
 .container {
   position: relative;
-  width: 350px;
-  height: 600px;
+  width: 325px;
+  height: 550px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e7e7e9;
+  background-color: white;
   padding-bottom: 100px;
   border-radius: 20px;
+  margin-top: 50px;
 }
 
 .imageContainer {
@@ -43,7 +45,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  top: 5px;
+  top: -20px;
   right: 20px;
 }
 .imageContainer .box-img {
@@ -70,6 +72,8 @@ body {
 }
 .faq-container h1 {
   align-self: center;
+  font-size: 1.9rem;
+  color: #1d1e35;
 }
 .faq-container .faq {
   margin: 5px 0;
@@ -80,9 +84,10 @@ body {
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
-  color: #4a4b5e;
+  color: #787887;
   font-weight: 700;
   padding: 15px 0;
+  cursor: pointer;
 }
 .faq-container .faq .question .arrow {
   width: 10px;
@@ -92,4 +97,7 @@ body {
   color: #787887;
   font-weight: 700;
   display: none;
+}
+.faq-container .faq .line {
+  border: 1px solid #e7e7e9;
 }
